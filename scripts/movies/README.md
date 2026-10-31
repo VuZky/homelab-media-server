@@ -33,8 +33,8 @@ Media servers match movies against online databases using the `Title (Year)` con
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/VuZky/homelab-media-server.git
+cd homelab-media-server/scripts/movies
 
 cp config.example.sh config.sh   # create your private config
 nano config.sh                   # set SRC and DST to your own folders
